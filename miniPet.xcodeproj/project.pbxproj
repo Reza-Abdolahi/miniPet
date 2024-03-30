@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544C2A892BB7CB6A00821049 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C2A882BB7CB6A00821049 /* ARViewContainer.swift */; };
 		547F6B0F2BB76BB700B00671 /* miniPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F6B0E2BB76BB700B00671 /* miniPetApp.swift */; };
 		547F6B132BB76BB900B00671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547F6B122BB76BB900B00671 /* Assets.xcassets */; };
 		547F6B172BB76BB900B00671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547F6B162BB76BB900B00671 /* Preview Assets.xcassets */; };
-		547F6B212BB7711700B00671 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F6B202BB7711700B00671 /* ARViewContainer.swift */; };
 		547F6B282BB7AC0C00B00671 /* 3d-lowPoly-Cat.obj in Resources */ = {isa = PBXBuildFile; fileRef = 547F6B272BB7AC0C00B00671 /* 3d-lowPoly-Cat.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544C2A882BB7CB6A00821049 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		547F6B0B2BB76BB700B00671 /* miniPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		547F6B0E2BB76BB700B00671 /* miniPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniPetApp.swift; sourceTree = "<group>"; };
 		547F6B122BB76BB900B00671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		547F6B142BB76BB900B00671 /* miniPet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = miniPet.entitlements; sourceTree = "<group>"; };
 		547F6B162BB76BB900B00671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		547F6B202BB7711700B00671 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = ../../../ARViewContainer.swift; sourceTree = "<group>"; };
 		547F6B262BB7952300B00671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		547F6B272BB7AC0C00B00671 /* 3d-lowPoly-Cat.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3d-lowPoly-Cat.obj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544C2A872BB7CB5400821049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				544C2A882BB7CB6A00821049 /* ARViewContainer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		547F6B022BB76BB700B00671 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				547F6B0E2BB76BB700B00671 /* miniPetApp.swift */,
-				547F6B1D2BB76D4100B00671 /* Views */,
+				544C2A872BB7CB5400821049 /* Views */,
 				547F6B1E2BB76D4B00B00671 /* 3D Models */,
 				547F6B262BB7952300B00671 /* Info.plist */,
 				547F6B142BB76BB900B00671 /* miniPet.entitlements */,
@@ -72,14 +80,6 @@
 				547F6B162BB76BB900B00671 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		547F6B1D2BB76D4100B00671 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				547F6B202BB7711700B00671 /* ARViewContainer.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		547F6B1E2BB76D4B00B00671 /* 3D Models */ = {
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				547F6B0F2BB76BB700B00671 /* miniPetApp.swift in Sources */,
-				547F6B212BB7711700B00671 /* ARViewContainer.swift in Sources */,
+				544C2A892BB7CB6A00821049 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
