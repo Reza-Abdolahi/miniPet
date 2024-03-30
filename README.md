@@ -1,4 +1,5 @@
-** miniPet **
+# miniPet 😺
+## It's a fun new project to explore capabilities of RealityKit and ARKit which progressively will be maintained and improved. 
 
-This is a passion project to explore capabilities of ARKit and RealityKit in which progressively 
-new features will be added.
+## installation: 
+- just run xcworkspace, no further steps are needed! 
